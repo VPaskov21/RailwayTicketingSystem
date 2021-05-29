@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="418c5377-9090-4ad6-a298-cc96babe70ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/railway.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/controller/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/RouteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/RouteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/SeatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/SeatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/service/RouteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/service/RouteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/service/StationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/service/StationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/delivery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/payment-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/payment-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/purchase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/space.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/space.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/creditcard.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/creditcard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/discount.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/discount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/payment-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/profile-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/profile-navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/validation-success-modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/searchresults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/searchresults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/validation/no-ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/validation/no-ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/validation/validate-ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/validation/validate-ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/validation/validate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/validation/validate.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="225" column="105" lean-forward="true" selection-start-line="225" selection-start-column="105" selection-end-line="225" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/TicketRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="32" column="139" lean-forward="true" selection-start-line="32" selection-start-column="139" selection-end-line="32" selection-end-column="139" />
+              <folding>
+                <element signature="e#0#38#1" expanded="true" />
+                <element signature="e#0#164#1" expanded="true" />
+                <element signature="e#0#161#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/SeatRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/ProfileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/BookingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="208" column="83" lean-forward="true" selection-start-line="208" selection-start-column="83" selection-end-line="208" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/review.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/payment-data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+              <folding>
+                <element signature="e#2#10#0" expanded="true" />
+                <element signature="e#2#23#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2#17#0" expanded="true" />
+                <element signature="e#2#22#0" expanded="true" />
+                <element signature="e#2#17#0" expanded="true" />
+                <element signature="e#2#22#0" expanded="true" />
+                <element signature="e#2#19#0" expanded="true" />
+                <element signature="e#2#24#0" expanded="true" />
+                <element signature="e#2#18#0" expanded="true" />
+                <element signature="e#2#23#0" expanded="true" />
+                <element signature="e#2#18#0" expanded="true" />
+                <element signature="e#2#23#0" expanded="true" />
+                <element signature="e#2#31#0" expanded="true" />
+                <element signature="e#2#23#0" expanded="true" />
+                <element signature="e#2#25#0" expanded="true" />
+                <element signature="e#2#29#0" expanded="true" />
+                <element signature="e#2#14#0" expanded="true" />
+                <element signature="e#2#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#2#6#0" expanded="true" />
+                <element signature="e#2#19#0" expanded="true" />
+                <element signature="e#13#31#0" expanded="true" />
+                <element signature="e#13#29#0" expanded="true" />
+                <element signature="e#2#6#0" expanded="true" />
+                <element signature="e#2#7#0" expanded="true" />
+                <element signature="e#2#9#0" expanded="true" />
+                <element signature="e#2#10#0" expanded="true" />
+                <element signature="e#2#8#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Station.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>confi</find>
+      <find>user-phone</find>
+      <find>updatephone</find>
+      <find>yourspace</find>
+      <find>validateaddi</find>
+      <find>validatecvv</find>
+      <find>payment-data</find>
+      <find>console</find>
+      <find>откажи билет</find>
+      <find>текуща парола</find>
+      <find>cancel ticket</find>
+      <find>profile.disco</find>
+      <find>contacts</find>
+      <find>junit</find>
+      <find>checkif</find>
+      <find>cancelti</find>
+      <find>round</find>
+      <find>system.out</find>
+      <find>send-message</find>
+      <find>contactsForm</find>
+      <find>payment</find>
+      <find>page.error.title</find>
+      <find>profile.history.exp</find>
+      <find>validateadditional</find>
+      <find>inputdiscountdo</find>
+      <find>inputDiscountdocumentNumber</find>
+      <find>documentInformation</find>
+      <find>inputdiscountdocument</find>
+      <find>url</find>
+      <find>profile/discount</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/profile-navigation.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/creditcard.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/address.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/project/railway/StationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/service/StationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/service/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error/404.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error/403.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/error/500.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/service/RouteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/project/railway/RouteServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/project/railway/ClientServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/config/SecurityAES.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/TicketStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/RouteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/contacts.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/history.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/booking/purchase.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/validation/no-ticket.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/search.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/service/RouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/searchresults.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/validation/validate.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/validation/validate-ticket.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/info.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/booking/space.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/booking/delivery.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/script.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/discount.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/booking/data.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/controller/ProfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/SeatRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/controller/BookingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/TicketRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/booking/payment-data.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="railway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="railway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DownloadsGoogle\railway (1)\railway\src\main\resources\templates\profile" />
+      <recent name="D:\DownloadsGoogle\railway (1)\railway\src\main\resources" />
+      <recent name="D:\DownloadsGoogle\railway (1)\railway\src\main\resources\messages" />
+      <recent name="D:\DownloadsGoogle\railway (1)\railway\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RailwayApplication">
+    <configuration name="ClientServiceTest.shouldNotValidateUserWithAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="railway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.railway" />
+      <option name="MAIN_CLASS_NAME" value="com.project.railway.ClientServiceTest" />
+      <option name="METHOD_NAME" value="shouldNotValidateUserWithAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="railway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.railway" />
+      <option name="MAIN_CLASS_NAME" value="com.project.railway.ClientServiceTest" />
+      <option name="METHOD_NAME" value="shouldNotValidateUserWithAddressAndCreditCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="railway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.railway" />
+      <option name="MAIN_CLASS_NAME" value="com.project.railway.ClientServiceTest" />
+      <option name="METHOD_NAME" value="shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.shouldValidateUserWithAddressAndCreditCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="railway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.railway" />
+      <option name="MAIN_CLASS_NAME" value="com.project.railway.ClientServiceTest" />
+      <option name="METHOD_NAME" value="shouldValidateUserWithAddressAndCreditCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.shouldValidateUserWithAddressAndCreditCardAndDiscountDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="railway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.railway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.railway" />
+      <option name="MAIN_CLASS_NAME" value="com.project.railway.ClientServiceTest" />
+      <option name="METHOD_NAME" value="shouldValidateUserWithAddressAndCreditCardAndDiscountDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RailwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="railway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.railway.RailwayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument" />
+        <item itemvalue="JUnit.ClientServiceTest.shouldValidateUserWithAddressAndCreditCardAndDiscountDocument" />
+        <item itemvalue="JUnit.ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCard" />
+        <item itemvalue="JUnit.ClientServiceTest.shouldValidateUserWithAddressAndCreditCard" />
+        <item itemvalue="JUnit.ClientServiceTest.shouldNotValidateUserWithAddress" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="418c5377-9090-4ad6-a298-cc96babe70ac" name="Default Changelist" comment="" />
+      <created>1591126010731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591126010731</updated>
+      <workItem from="1591126012868" duration="8466000" />
+      <workItem from="1591178007564" duration="26747000" />
+      <workItem from="1591265424817" duration="26758000" />
+      <workItem from="1591351493543" duration="3421000" />
+      <workItem from="1591358013774" duration="4316000" />
+      <workItem from="1591373083864" duration="1823000" />
+      <workItem from="1591383655146" duration="9876000" />
+      <workItem from="1591437380909" duration="32894000" />
+      <workItem from="1591536641306" duration="27433000" />
+      <workItem from="1591610671751" duration="28654000" />
+      <workItem from="1591708433777" duration="25503000" />
+      <workItem from="1591782454711" duration="16432000" />
+      <workItem from="1591807800546" duration="13779000" />
+      <workItem from="1591872829158" duration="517000" />
+      <workItem from="1591888748729" duration="21918000" />
+      <workItem from="1591953242994" duration="34095000" />
+      <workItem from="1592048960466" duration="10406000" />
+      <workItem from="1592072774672" duration="11505000" />
+      <workItem from="1592129374668" duration="27471000" />
+      <workItem from="1592167780630" duration="3176000" />
+      <workItem from="1592218600808" duration="8994000" />
+      <workItem from="1592325963244" duration="10890000" />
+      <workItem from="1592470109926" duration="2799000" />
+      <workItem from="1592482792136" duration="11706000" />
+      <workItem from="1592669801132" duration="2355000" />
+      <workItem from="1593806632249" duration="2250000" />
+      <workItem from="1593854223457" duration="4720000" />
+      <workItem from="1593886388012" duration="2326000" />
+      <workItem from="1593963105763" duration="6825000" />
+      <workItem from="1594026806939" duration="8385000" />
+      <workItem from="1594041848919" duration="3802000" />
+      <workItem from="1594052304386" duration="916000" />
+      <workItem from="1594059780989" duration="6356000" />
+      <workItem from="1594212013314" duration="3414000" />
+      <workItem from="1594235441367" duration="975000" />
+      <workItem from="1594286485730" duration="6445000" />
+      <workItem from="1594303705678" duration="5193000" />
+      <workItem from="1594314424138" duration="758000" />
+      <workItem from="1594645448249" duration="2717000" />
+      <workItem from="1594895973370" duration="2542000" />
+      <workItem from="1594999416849" duration="1479000" />
+      <workItem from="1595066813213" duration="2529000" />
+      <workItem from="1595091623447" duration="2090000" />
+      <workItem from="1595153928095" duration="3387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ClientServiceTest_shouldNotValidateUser - 2020.07.06 at 21h 38m 37s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldNotValidateUser - 2020.07.06 at 21h 38m 59s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldValidateUserWithAddress - 2020.07.06 at 22h 14m 17s.xml">
+      <configuration name="ClientServiceTest.shouldValidateUserWithAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldNotValidateUserWithAddress - 2020.07.06 at 22h 15m 18s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUserWithAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldValidateUserWithAddressAndCreditCard - 2020.07.06 at 22h 40m 55s.xml">
+      <configuration name="ClientServiceTest.shouldValidateUserWithAddressAndCreditCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldNotValidateUserWithAddressAndCreditCard - 2020.07.06 at 22h 41m 52s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldValidateUserWithAddressAndCreditCardAndDiscountDocument - 2020.07.06 at 22h 42m 29s.xml">
+      <configuration name="ClientServiceTest.shouldValidateUserWithAddressAndCreditCardAndDiscountDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument - 2020.07.06 at 22h 43m 16s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument - 2020.07.06 at 22h 43m 42s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientServiceTest_shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument - 2020.07.08 at 15h 44m 25s.xml">
+      <configuration name="ClientServiceTest.shouldNotValidateUserWithAddressAndCreditCardAndDiscountDocument" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="439043000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48966613" visible="true" weight="0.22921109" />
+      <window_info id="Structure" order="1" sideWeight="0.51033384" side_tool="true" weight="0.19936034" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49413645" weight="0.31744313" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50586355" side_tool="true" weight="0.31744313" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Seat.java</url>
+          <line>19</line>
+          <properties field="train" class="com.project.railway.data.entity.Seat" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="105" column="46" selection-start-line="104" selection-start-column="8" selection-end-line="105" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/purchase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#27#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <folding>
+            <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <folding>
+            <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <folding>
+            <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/payment-steps.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/profile-history-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2#29#0" expanded="true" />
+            <element signature="e#2#28#0" expanded="true" />
+            <element signature="e#2#28#0" expanded="true" />
+            <element signature="e#2#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/profile-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2#21#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/profile-navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2#14#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/ticket-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2#27#0" expanded="true" />
+            <element signature="e#2#31#0" expanded="true" />
+            <element signature="e#2#31#0" expanded="true" />
+            <element signature="e#2#37#0" expanded="true" />
+            <element signature="e#2#35#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#34#0" expanded="true" />
+            <element signature="e#2#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/validation-success-modal.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/validation/no-ticket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="178" column="57" selection-start-line="178" selection-start-column="57" selection-end-line="178" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-866">
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#21#0" expanded="true" />
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+            <element signature="e#2#27#0" expanded="true" />
+            <element signature="e#2#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="106" column="81" selection-start-line="106" selection-start-column="81" selection-end-line="106" selection-end-column="81" />
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+            <element signature="e#2#22#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#13#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#24#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#27#0" expanded="true" />
+            <element signature="e#2#22#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/creditcard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1070">
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#29#0" expanded="true" />
+            <element signature="e#2#27#0" expanded="true" />
+            <element signature="e#2#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#6#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#13#31#0" expanded="true" />
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#2#6#0" expanded="true" />
+            <element signature="e#2#7#0" expanded="true" />
+            <element signature="e#2#9#0" expanded="true" />
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#8#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <folding>
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="179" selection-start-line="179" selection-end-line="179" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/railway.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/RouteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="65" column="77" selection-start-line="65" selection-start-column="77" selection-end-line="65" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/searchresults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/validation/validate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/space.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/validation/validate-ticket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="22" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/discount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12257">
+          <caret line="721" column="56" selection-start-line="721" selection-start-column="56" selection-end-line="721" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="41" column="82" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="94" column="94" selection-start-line="94" selection-start-column="94" selection-end-line="94" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="155" column="69" selection-start-line="155" selection-start-column="69" selection-end-line="155" selection-end-column="69" />
+          <folding>
+            <element signature="e#3681#3682#0" expanded="true" />
+            <element signature="e#3707#3708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/entity/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#2#6#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#13#31#0" expanded="true" />
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#2#6#0" expanded="true" />
+            <element signature="e#2#7#0" expanded="true" />
+            <element signature="e#2#9#0" expanded="true" />
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#8#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#2#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/SeatRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/service/TicketServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="225" column="105" lean-forward="true" selection-start-line="225" selection-start-column="105" selection-end-line="225" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/data/repository/TicketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="139" lean-forward="true" selection-start-line="32" selection-start-column="139" selection-end-line="32" selection-end-column="139" />
+          <folding>
+            <element signature="e#0#38#1" expanded="true" />
+            <element signature="e#0#164#1" expanded="true" />
+            <element signature="e#0#161#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/railway/controller/BookingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="208" column="83" lean-forward="true" selection-start-line="208" selection-start-column="83" selection-end-line="208" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/review.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/booking/payment-data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#22#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+            <element signature="e#2#22#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#24#0" expanded="true" />
+            <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#18#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#31#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
+            <element signature="e#2#25#0" expanded="true" />
+            <element signature="e#2#29#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+            <element signature="e#2#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
